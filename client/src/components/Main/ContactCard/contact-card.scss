@@ -1,0 +1,50 @@
+.card {
+  width: 300px;
+  font-family: 'Open Sans', sans-serif;
+
+  &-primary {
+    margin-top: 12px;
+    display: block;
+  }
+
+  &-primary-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-primary-info {
+    display: block;
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  &-primary-info-name {
+    font-weight: bold;
+    color: #0277bd;
+  }
+
+  &-primary-info-phone {
+    color: #039be5;
+  }
+
+  &-secondary {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-secondary-title {
+    font-size: 13px;
+    color: #0277bd;
+  }
+
+  &-secondary-data {
+    font-size: 11px;
+    padding-left: 7px;
+    color: #039be5;
+  }
+
+}

@@ -1,0 +1,33 @@
+.contact {
+  display: flex;
+  border: 1px solid #29b6f6;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  cursor: pointer;
+  border-radius: 8px;
+
+  &:hover {
+    border: 2px solid #039be5;
+  }
+
+  &-data {
+    padding-left: 25px;
+  }
+
+  &-data h3 {
+    font-size: 16px;
+    color: #039be5;
+  }
+
+  &-data p {
+    font-size: 14px;
+    color: #0277bd;
+  }
+
+  &-avatar {
+    padding-right: 25px;
+  }
+
+}
